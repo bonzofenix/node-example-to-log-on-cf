@@ -22,7 +22,7 @@ app.get('/', function(req, res) {
   res.send("This App can help you log on the stdout: GET on /log?msg=something")
 });
 
-app.get('/msg', function(req, res) {
+app.get('/log', function(req, res) {
   var msg = req.param('msg');
     sys.print(msg);
   res.send('stdout: ' + msg)
