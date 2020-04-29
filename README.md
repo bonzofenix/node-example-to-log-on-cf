@@ -1,0 +1,1 @@
+# Vanilla Node image
